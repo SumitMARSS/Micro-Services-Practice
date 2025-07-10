@@ -74,13 +74,13 @@ This project demonstrates how to build, containerize, and deploy a simple micros
 
 ##  🧠 5. Kubernetes Concepts
 
-### Term	        Description
-    Pod	          The smallest deployable unit. Wraps one or more containers.
-    Deployment	  Manages stateless replicas of pods (e.g., APIs).
-    StatefulSet	  For stateful pods like DBs. Ensures stable identity and storage.
-    Service	      A stable endpoint to expose a set of pods.
-    ReplicaSet	  Ensures a specified number of pod replicas are running at all times.
-    DaemonSet	    Runs one pod per node, usually for log collectors, metrics agents, etc.
+### Term	            Description
+    Pod	              The smallest deployable unit. Wraps one or more containers.
+    Deployment	      Manages stateless replicas of pods (e.g., APIs).
+    StatefulSet	      For stateful pods like DBs. Ensures stable identity and storage.
+    Service	          A stable endpoint to expose a set of pods.
+    ReplicaSet	      Ensures a specified number of pod replicas are running at all times.
+    DaemonSet	      Runs one pod per node, usually for log collectors, metrics agents, etc.
 
 ----------------------------------------------------------------------------
 
@@ -143,13 +143,13 @@ This project demonstrates how to build, containerize, and deploy a simple micros
 
 ## ✅ Summary of Tools
 
-  ## Tool	          Purpose
-    Docker	        Containerize individual services
-    Docker          Compose	Manage multiple containers locally
-    Minikube	      Run Kubernetes cluster locally
-    kubectl	        CLI to manage Kubernetes
-    K8s Dashboard	  View deployments, pods, services visually
-    Metrics Server	Monitor CPU & memory usage
+  ## Tool	              Purpose
+    Docker	            Containerize individual services
+    Docker              Compose	Manage multiple containers locally
+    Minikube	        Run Kubernetes cluster locally
+    kubectl	            CLI to manage Kubernetes
+    K8s Dashboard	    View deployments, pods, services visually
+    Metrics Server	    Monitor CPU & memory usage
 
 ----------------------------------------------------------------------------
 
