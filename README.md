@@ -74,7 +74,7 @@ This project demonstrates how to build, containerize, and deploy a simple micros
 
 ##  🧠 5. Kubernetes Concepts
 
-### Term	            Description
+### Term ------------ Description
     Pod	              The smallest deployable unit. Wraps one or more containers.
     Deployment	      Manages stateless replicas of pods (e.g., APIs).
     StatefulSet	      For stateful pods like DBs. Ensures stable identity and storage.
@@ -143,7 +143,7 @@ This project demonstrates how to build, containerize, and deploy a simple micros
 
 ## ✅ Summary of Tools
 
-  ## Tool	              Purpose
+  ## Tool ------------- Purpose
     Docker	            Containerize individual services
     Docker              Compose	Manage multiple containers locally
     Minikube	        Run Kubernetes cluster locally
