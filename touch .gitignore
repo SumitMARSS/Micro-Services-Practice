@@ -1,0 +1,36 @@
+# Ignore node dependencies
+**/node_modules/
+
+# Ignore Python cache files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Ignore environment files (you can store secrets locally, not in Git)
+.env
+*.env
+
+# Ignore Docker volumes (if used locally)
+volumes/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore Kubernetes temporary files (if any)
+*.yaml~*
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
